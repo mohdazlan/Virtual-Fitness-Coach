@@ -1,0 +1,11 @@
+c:\users\x1 carbon\documents\visual studio 2015\Projects\Virtual Fitness Coach\Virtual Fitness Coach\bin\Debug\Virtual Fitness Coach.exe.config
+c:\users\x1 carbon\documents\visual studio 2015\Projects\Virtual Fitness Coach\Virtual Fitness Coach\bin\Debug\Virtual Fitness Coach.exe
+c:\users\x1 carbon\documents\visual studio 2015\Projects\Virtual Fitness Coach\Virtual Fitness Coach\bin\Debug\Virtual Fitness Coach.pdb
+c:\users\x1 carbon\documents\visual studio 2015\Projects\Virtual Fitness Coach\Virtual Fitness Coach\bin\Debug\Virtual Fitness Coach.xml
+c:\users\x1 carbon\documents\visual studio 2015\Projects\Virtual Fitness Coach\Virtual Fitness Coach\obj\Debug\Virtual Fitness Coach.vbprojResolveAssemblyReference.cache
+c:\users\x1 carbon\documents\visual studio 2015\Projects\Virtual Fitness Coach\Virtual Fitness Coach\obj\Debug\Virtual_Fitness_Coach.frmLogin.resources
+c:\users\x1 carbon\documents\visual studio 2015\Projects\Virtual Fitness Coach\Virtual Fitness Coach\obj\Debug\Virtual_Fitness_Coach.Resources.resources
+c:\users\x1 carbon\documents\visual studio 2015\Projects\Virtual Fitness Coach\Virtual Fitness Coach\obj\Debug\Virtual Fitness Coach.vbproj.GenerateResource.Cache
+c:\users\x1 carbon\documents\visual studio 2015\Projects\Virtual Fitness Coach\Virtual Fitness Coach\obj\Debug\Virtual Fitness Coach.exe
+c:\users\x1 carbon\documents\visual studio 2015\Projects\Virtual Fitness Coach\Virtual Fitness Coach\obj\Debug\Virtual Fitness Coach.xml
+c:\users\x1 carbon\documents\visual studio 2015\Projects\Virtual Fitness Coach\Virtual Fitness Coach\obj\Debug\Virtual Fitness Coach.pdb
