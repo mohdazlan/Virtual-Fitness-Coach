@@ -28,26 +28,30 @@ Partial Class frmLogin
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.btnLogin = New System.Windows.Forms.Button()
+        Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.txtPassword = New System.Windows.Forms.TextBox()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.txtUserName = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.txtPassword = New System.Windows.Forms.TextBox()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
+        Me.txtUserName = New System.Windows.Forms.TextBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.btnExit = New System.Windows.Forms.Button()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.Panel1.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
-        Me.Panel3.SuspendLayout()
         Me.Panel4.SuspendLayout()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel3.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel1
@@ -120,19 +124,84 @@ Partial Class frmLogin
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Welcome to the"
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.Virtual_Fitness_Coach.My.Resources.Resources.fitness_logo
+        Me.PictureBox1.Location = New System.Drawing.Point(83, 70)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(162, 160)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 0
+        Me.PictureBox1.TabStop = False
+        '
         'Panel2
         '
+        Me.Panel2.Controls.Add(Me.LinkLabel1)
+        Me.Panel2.Controls.Add(Me.Label9)
+        Me.Panel2.Controls.Add(Me.Label8)
+        Me.Panel2.Controls.Add(Me.Label7)
         Me.Panel2.Controls.Add(Me.Button3)
-        Me.Panel2.Controls.Add(Me.Button2)
+        Me.Panel2.Controls.Add(Me.btnLogin)
         Me.Panel2.Controls.Add(Me.Panel4)
         Me.Panel2.Controls.Add(Me.Label6)
         Me.Panel2.Controls.Add(Me.Panel3)
-        Me.Panel2.Controls.Add(Me.Button1)
+        Me.Panel2.Controls.Add(Me.btnExit)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel2.Location = New System.Drawing.Point(406, 0)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(598, 673)
         Me.Panel2.TabIndex = 1
+        '
+        'Button3
+        '
+        Me.Button3.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.Button3.ForeColor = System.Drawing.SystemColors.Highlight
+        Me.Button3.Location = New System.Drawing.Point(156, 406)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(158, 49)
+        Me.Button3.TabIndex = 8
+        Me.Button3.Text = "Forget Password?"
+        Me.Button3.UseVisualStyleBackColor = False
+        '
+        'btnLogin
+        '
+        Me.btnLogin.BackColor = System.Drawing.Color.SteelBlue
+        Me.btnLogin.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.btnLogin.Location = New System.Drawing.Point(7, 406)
+        Me.btnLogin.Name = "btnLogin"
+        Me.btnLogin.Size = New System.Drawing.Size(133, 49)
+        Me.btnLogin.TabIndex = 7
+        Me.btnLogin.Text = "LOGIN"
+        Me.btnLogin.UseVisualStyleBackColor = False
+        '
+        'Panel4
+        '
+        Me.Panel4.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Panel4.Controls.Add(Me.txtPassword)
+        Me.Panel4.Controls.Add(Me.PictureBox3)
+        Me.Panel4.Location = New System.Drawing.Point(3, 324)
+        Me.Panel4.Name = "Panel4"
+        Me.Panel4.Size = New System.Drawing.Size(590, 45)
+        Me.Panel4.TabIndex = 2
+        '
+        'txtPassword
+        '
+        Me.txtPassword.Font = New System.Drawing.Font("Century Gothic", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPassword.Location = New System.Drawing.Point(50, 9)
+        Me.txtPassword.Name = "txtPassword"
+        Me.txtPassword.Size = New System.Drawing.Size(531, 27)
+        Me.txtPassword.TabIndex = 3
+        Me.txtPassword.UseSystemPasswordChar = True
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.Image = Global.Virtual_Fitness_Coach.My.Resources.Resources.key
+        Me.PictureBox3.Location = New System.Drawing.Point(8, 8)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(24, 24)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox3.TabIndex = 1
+        Me.PictureBox3.TabStop = False
         '
         'Label6
         '
@@ -156,38 +225,20 @@ Partial Class frmLogin
         Me.Panel3.Size = New System.Drawing.Size(590, 45)
         Me.Panel3.TabIndex = 1
         '
-        'Button1
+        'TextBox2
         '
-        Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Tai Le", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(554, 12)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(39, 47)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "x"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.TextBox2.Location = New System.Drawing.Point(50, 61)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(531, 26)
+        Me.TextBox2.TabIndex = 2
         '
-        'Panel4
+        'txtUserName
         '
-        Me.Panel4.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Panel4.Controls.Add(Me.txtPassword)
-        Me.Panel4.Controls.Add(Me.PictureBox3)
-        Me.Panel4.Location = New System.Drawing.Point(3, 324)
-        Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(590, 45)
-        Me.Panel4.TabIndex = 2
-        '
-        'PictureBox3
-        '
-        Me.PictureBox3.Image = Global.Virtual_Fitness_Coach.My.Resources.Resources.key
-        Me.PictureBox3.Location = New System.Drawing.Point(8, 8)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(24, 24)
-        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox3.TabIndex = 1
-        Me.PictureBox3.TabStop = False
+        Me.txtUserName.Font = New System.Drawing.Font("Century Gothic", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtUserName.Location = New System.Drawing.Point(50, 10)
+        Me.txtUserName.Name = "txtUserName"
+        Me.txtUserName.Size = New System.Drawing.Size(531, 27)
+        Me.txtUserName.TabIndex = 1
         '
         'PictureBox2
         '
@@ -199,61 +250,58 @@ Partial Class frmLogin
         Me.PictureBox2.TabIndex = 0
         Me.PictureBox2.TabStop = False
         '
-        'PictureBox1
+        'btnExit
         '
-        Me.PictureBox1.Image = Global.Virtual_Fitness_Coach.My.Resources.Resources.fitness_logo
-        Me.PictureBox1.Location = New System.Drawing.Point(83, 70)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(162, 160)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
+        Me.btnExit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.btnExit.FlatAppearance.BorderSize = 0
+        Me.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnExit.Font = New System.Drawing.Font("Microsoft Tai Le", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnExit.Location = New System.Drawing.Point(554, 12)
+        Me.btnExit.Name = "btnExit"
+        Me.btnExit.Size = New System.Drawing.Size(39, 47)
+        Me.btnExit.TabIndex = 0
+        Me.btnExit.Text = "x"
+        Me.btnExit.UseVisualStyleBackColor = True
         '
-        'txtUserName
+        'Label7
         '
-        Me.txtUserName.Font = New System.Drawing.Font("Century Gothic", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtUserName.Location = New System.Drawing.Point(50, 10)
-        Me.txtUserName.Name = "txtUserName"
-        Me.txtUserName.Size = New System.Drawing.Size(531, 27)
-        Me.txtUserName.TabIndex = 1
+        Me.Label7.AutoSize = True
+        Me.Label7.ForeColor = System.Drawing.Color.Teal
+        Me.Label7.Location = New System.Drawing.Point(13, 558)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(70, 20)
+        Me.Label7.TabIndex = 9
+        Me.Label7.Text = "Support:"
         '
-        'TextBox2
+        'Label8
         '
-        Me.TextBox2.Location = New System.Drawing.Point(50, 61)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(531, 26)
-        Me.TextBox2.TabIndex = 2
+        Me.Label8.AutoSize = True
+        Me.Label8.ForeColor = System.Drawing.Color.Teal
+        Me.Label8.Location = New System.Drawing.Point(13, 578)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(332, 20)
+        Me.Label8.TabIndex = 10
+        Me.Label8.Text = "Any enquiry/ technical support or any question"
         '
-        'txtPassword
+        'Label9
         '
-        Me.txtPassword.Font = New System.Drawing.Font("Century Gothic", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPassword.Location = New System.Drawing.Point(50, 9)
-        Me.txtPassword.Name = "txtPassword"
-        Me.txtPassword.Size = New System.Drawing.Size(531, 27)
-        Me.txtPassword.TabIndex = 3
-        Me.txtPassword.UseSystemPasswordChar = True
+        Me.Label9.AutoSize = True
+        Me.Label9.ForeColor = System.Drawing.Color.Teal
+        Me.Label9.Location = New System.Drawing.Point(13, 598)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(116, 20)
+        Me.Label9.TabIndex = 11
+        Me.Label9.Text = "Please email to"
         '
-        'Button2
+        'LinkLabel1
         '
-        Me.Button2.BackColor = System.Drawing.Color.SteelBlue
-        Me.Button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button2.Location = New System.Drawing.Point(7, 406)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(133, 49)
-        Me.Button2.TabIndex = 7
-        Me.Button2.Text = "LOGIN"
-        Me.Button2.UseVisualStyleBackColor = False
-        '
-        'Button3
-        '
-        Me.Button3.BackColor = System.Drawing.SystemColors.ButtonFace
-        Me.Button3.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Button3.Location = New System.Drawing.Point(156, 406)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(158, 49)
-        Me.Button3.TabIndex = 8
-        Me.Button3.Text = "Forget Password?"
-        Me.Button3.UseVisualStyleBackColor = False
+        Me.LinkLabel1.AutoSize = True
+        Me.LinkLabel1.Location = New System.Drawing.Point(136, 597)
+        Me.LinkLabel1.Name = "LinkLabel1"
+        Me.LinkLabel1.Size = New System.Drawing.Size(149, 20)
+        Me.LinkLabel1.TabIndex = 12
+        Me.LinkLabel1.TabStop = True
+        Me.LinkLabel1.Text = "azlan@pmu.edu.my"
         '
         'frmLogin
         '
@@ -269,15 +317,15 @@ Partial Class frmLogin
         Me.Text = "Form1"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
-        Me.Panel3.ResumeLayout(False)
-        Me.Panel3.PerformLayout()
         Me.Panel4.ResumeLayout(False)
         Me.Panel4.PerformLayout()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel3.ResumeLayout(False)
+        Me.Panel3.PerformLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -290,15 +338,19 @@ Partial Class frmLogin
     Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents Button1 As Button
+    Friend WithEvents btnExit As Button
     Friend WithEvents Label6 As Label
     Friend WithEvents Panel3 As Panel
     Friend WithEvents Panel4 As Panel
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents Button3 As Button
-    Friend WithEvents Button2 As Button
+    Friend WithEvents btnLogin As Button
     Friend WithEvents txtPassword As TextBox
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents txtUserName As TextBox
+    Friend WithEvents LinkLabel1 As LinkLabel
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Label8 As Label
+    Friend WithEvents Label7 As Label
 End Class
